@@ -1,0 +1,76 @@
+body {
+    font-family:s;
+    font-weight: bolder;
+    background-image: url("img/Website\ background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  
+  /* Center the quote container and set its width and margin */
+  #quote-container {
+    width: 85%;
+    max-width: 900px;
+    margin-left: 5%; 
+    margin-bottom: 8%;
+    
+  }
+  
+  /* Set the font size and style for the quote text */
+  #quote-text {
+    font-size: 3rem;
+    font-style: italic;
+    margin-top: 30%;
+    
+  }
+  
+  /* Set the font size and alignment for the quote author */
+  #quote-author {
+    font-size: 1.5rem;
+    text-align: right;
+    margin-right: 14.5%;
+  }
+  
+  /* Center the button and set its width, height, background color, border, and cursor */
+  #new-quote {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 20px auto;
+    background-color:pink;
+    border: 2cap;
+    border-color: whitesmoke;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+  }
+  
+  /* Change the background color of the button when hovered */
+  #new-quote:hover {
+    background-color: white;
+    color: rgb(250, 2, 196);
+    
+  }
+  
+  /* Use media queries to adjust the font size for smaller screens */
+  @media (max-width: 600px) {
+    #quote-text {
+      font-size: 1.5rem;
+    }
+  
+    #quote-author {
+      font-size: 1rem;
+    }
+
+  }
+
+  /* change color of background for small screens */
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  
